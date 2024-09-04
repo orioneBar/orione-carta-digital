@@ -1,0 +1,42 @@
+.categoryContainer {
+    padding: var(--padding);
+    background-color: var(--brandO);
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    font-size: var(--name2);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    background-color: var(--brand);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+@media  (max-width: 799px) {
+
+    .categoryContainer {
+        height: 7vh;
+    }
+
+    .category {
+        font-size: var(--name);
+    }
+
+    .icon {
+        font-size: 6vw;
+    }
+
+}

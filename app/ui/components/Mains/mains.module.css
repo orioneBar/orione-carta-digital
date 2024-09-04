@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+    width: 100vw;
+    padding: 5vh 3vw;
+    background-color: var(--brand);
+    color: var(--bg);
+}
+
+.mainTitle {
+    font-size: var(--main);
+    font-weight: 900;
+    margin-bottom: 2vh;
+}

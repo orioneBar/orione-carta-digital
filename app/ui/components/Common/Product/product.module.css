@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: var(--name);
+    width: 70%;
+}
+
+.price {
+    font-size: var(--name);
+}
+
+.bottom {
+    
+}
+
+.description {
+    font-size: var(--description);
+    font-weight: 300;
+}

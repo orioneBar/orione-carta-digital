@@ -1,0 +1,41 @@
+.section {
+    height: 100%;
+    width: 100vw;
+    padding: 2vh 2vw;
+    position: relative;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -7vh;
+    height: 7vh;
+}
+
+.mainTitle {
+    font-size: var(--main);
+    font-weight: 900;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+
+.salads {
+    background-color: var(--seconday);
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.mains {
+    background-color: var(--brand);
+    color: var(--bg);
+}
+
+.drinks {
+    background-color: var(--text);
+    color: var(--bg);
+}

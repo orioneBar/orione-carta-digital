@@ -1,0 +1,21 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.button {
+    margin: var(--padding);
+    padding: 1vh;
+    border-radius: var(--radius);
+    border: 2px solid var(--brand);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--brand);
+    color: var(--bg);
+}
+
+
+

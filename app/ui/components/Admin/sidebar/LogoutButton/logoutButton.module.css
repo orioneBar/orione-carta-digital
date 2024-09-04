@@ -1,0 +1,18 @@
+.logout {
+    width: 100%;
+    gap: 10px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--brand);
+}
+
+.logout:hover {
+    background-color: #b0bec5;
+}

@@ -1,0 +1,136 @@
+.productsContainer {
+    padding: var(--padding);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border: 1px solid lightgray;
+    position: relative;
+    border-top: none;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.label {
+    font-size: var(--descriptio2);
+    font-weight: 500;
+}
+
+.input {
+    height: 4vh;
+    padding: 2vh 1vw;
+    border-radius: var(--radius);
+    border: 1px solid var(--brand);
+    outline: none;
+    width: 25vw;
+    font-family: "Jost", sans-serif;
+}
+
+.textarea {
+    height: 8vh;
+    padding: 2vh 1vw;
+    border-radius: var(--radius);
+    border: 1px solid var(--brand);
+    outline: none;
+    width: 60vw;
+    font-family: "Jost", sans-serif;
+    white-space: pre-wrap;
+}
+
+.inputPrice {
+    height: 4vh;
+    padding: 2vh 1vw;
+    border-radius: var(--radius);
+    outline: none;
+    border: 1px solid var(--brand);
+    width: 10vw;
+}
+
+.optionsContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    gap: 1vw;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    color: crimson;
+    cursor: pointer;
+}
+
+.button {
+    width: 8vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: var(--padding);
+    padding: 1vh;
+    border-radius: var(--radius);
+    border: none;
+    background-color: rgb(24, 51, 172);
+    color: var(--bg);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--brand);
+}
+
+.disabledButton {
+    width: 8vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: var(--padding);
+    padding: 1vh;
+    border-radius: var(--radius);
+    border: none;
+    background-color: lightgrey;
+    color: var(--bg);
+    font-weight: 700;
+}
+
+
+@media  (max-width: 799px) {
+
+    .productsContainer {
+        padding: 2vh;
+    }
+
+    .iconContainer {
+        font-size: 6vw;
+    }
+
+    .input {
+        width: 40vw;
+    }
+    
+    .textarea {
+        height: 10vh;
+    }
+
+    .inputPrice {
+        width: 40vw;
+    }
+
+    .button {
+        width: 40vw;
+    }
+    
+    .disabledButton {
+        width: 40vw;
+    }
+
+}

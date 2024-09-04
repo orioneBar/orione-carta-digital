@@ -1,0 +1,36 @@
+.addProductContainer {
+    background-color: #ffffff;
+    padding: var(--padding);
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.button {
+    padding: 1vh;
+    border-radius: var(--radius);
+    border: none;
+    background-color: rgb(24, 172, 90);
+    color: var(--bg);
+    font-weight: 700;
+    cursor: pointer;
+    width: 10vw;
+}
+
+.button:hover {
+    background-color: var(--brand);
+}
+
+
+@media  (max-width: 799px) {
+
+    .addProductContainer {
+        padding: 3vh;
+    }
+
+    .button {
+        width: 40vw;
+    }
+
+}
